@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="All Test Suite">-->
+<suite name="My suite" parallel="tests" thread-count="3">
+    <test verbose="2" preserve-order="true" name="C:/Users/saideep/IdeaProjects/Autonation_Framework_project">
+        <classes>
+
+<!--            <class name="TestCases.LoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyValidUserNameValidPassword"/>-->
+<!--                    <include name="verifyClickHereToRegisterButton"/>-->
+<!--                    <include name="verifyLostYourPasswordButton"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="TestCases.LostYourPasswordTest"/>
+            <class name="TestCases.CafeFinderTest"/>
+        </classes>
+    </test>
+</suite>
