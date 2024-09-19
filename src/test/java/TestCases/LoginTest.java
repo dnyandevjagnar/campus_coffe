@@ -24,7 +24,7 @@ public class LoginTest extends WebTestBase {
     @Test(description = "verify login with valid username and password ")
     public void verifyValidUserNameValidPassword(){
         SoftAssert softAssert=new SoftAssert();
-         //homePage.closedAd2();
+          homePage.closedAd2();
           homePage.closedAd();
           homePage.clickOnLoginBtn();
           loginPage.login(prop.getProperty("username"),prop.getProperty("password") );
