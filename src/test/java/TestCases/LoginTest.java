@@ -29,6 +29,7 @@ public class LoginTest extends WebTestBase {
           homePage.clickOnLoginBtn();
           loginPage.login(prop.getProperty("username"),prop.getProperty("password") );
           softAssert.assertEquals(myAccountPage.getTextOfMyAccount(),"MY ACCOUNT","MY ACCOUNT should be match");
+        softAssert.assertEquals(myAccountPage.getTextOfMyAccount(),"MY ACCOUNT","MY ACCOUNT should be match");
           softAssert.assertAll();
 
     }
